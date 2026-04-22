@@ -13,7 +13,7 @@
     "bot:pm2:logs": "pm2 logs telegram-bot",
     "bot:pm2:save": "pm2 save",
     "dev": "vite",
-    "build": "vite build",
+    "build": "echo 'No build needed for bot'",
     "lint": "eslint .",
     "preview": "vite preview"
   },
