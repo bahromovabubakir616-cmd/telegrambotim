@@ -1,0 +1,39 @@
+{
+  "name": "vipe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node index.js",
+    "bot:pm2:start": "pm2 start ecosystem.config.cjs --only telegram-bot",
+    "bot:pm2:restart": "pm2 restart telegram-bot",
+    "bot:pm2:stop": "pm2 stop telegram-bot",
+    "bot:pm2:delete": "pm2 delete telegram-bot",
+    "bot:pm2:logs": "pm2 logs telegram-bot",
+    "bot:pm2:save": "pm2 save",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "pm2": "^6.0.14",
+    "vite": "^7.1.7"
+  }
+}
