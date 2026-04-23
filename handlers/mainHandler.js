@@ -32,7 +32,7 @@ export function createMainHandler({ bot, products, store }) {
       await bot.sendMessage(
         msg.chat.id,
         [
-          "🖤 <b>Mushk.uz</b> premium atirlar butikiga xush kelibsiz.",
+          "🖤 <b>Mushkuz.netlify.app</b> premium atirlar butikiga xush kelibsiz.",
           "Nafis hidlar, tez buyurtma, premium servis.",
         ].join("\n"),
         {
