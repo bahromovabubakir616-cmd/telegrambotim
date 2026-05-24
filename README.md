@@ -84,3 +84,4 @@ npm start
 ### Muhim xavfsizlik
 
 Agar token noto'g'ri joyda oshkor bo'lgan bo'lsa, BotFather orqali tokenni darhol yangilang va eski tokenni bekor qiling.
+"# mushkuzbot" 
